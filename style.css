@@ -1,0 +1,78 @@
+html {
+	margin: 0%;
+	height: 100%;
+}
+
+body {
+	
+	font-family: 'Raleway', sans-serif;
+	background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    margin: 0;
+	height: 100%;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #F9F9F9;
+}
+
+hr {
+    color: #1e549f;
+    border: 2px solid #1e549f;
+    max-width: 65px;
+    background-color: #1e549f;
+    opacity: 1;
+    padding: 0, 10px;
+    margin: 0, 10px;  
+}
+
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #F9F9F9;
+	border-radius: 30px;
+	padding:10px 30px;
+}
+
+.btn > a {
+	text-decoration: none;
+	color: white;
+}
+
+.buffer {
+	height: 5rem;
+}
+
+.btn-xl{
+	background: black;
+	transition: transform 0.3s;
+	margin: 0px 20px;
+	border-width: 3px;
+	box-shadow: 0 3px rgb(46, 45, 45);
+}
+
+.btn-xl:hover {
+	background: linear-gradient(90deg, rgba(252,184,0,1) 0%, rgba(29,63,253,1) 50%, rgba(177,8,159,1) 100%);
+	transform: scale(1.2);
+/*	color: rgb(245, 189, 0);*/
+}
+
+.btn-xl:active {
+  background: linear-gradient(90deg, rgba(252,184,0,1) 0%, rgba(29,63,253,1) 50%, rgba(177,8,159,1) 100%);
+  box-shadow: 0 3px rgb(46, 45, 45);
+  transform: translateY(4px);
+  color: rgb(245, 189, 0);
+  }
+
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
